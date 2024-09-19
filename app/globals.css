@@ -41,3 +41,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .card {
+    border-radius: 0.5rem; /* Ajustez la valeur selon vos besoins */
+    border: 1px solid var(--border); /* Assurez-vous que la bordure est appliquée */
+  }
+}

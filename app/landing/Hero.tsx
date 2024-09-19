@@ -52,13 +52,13 @@ export default function Hero() {
           transition={{ delay: 0.3, duration: 0.4 }}
         >
           <Button variant="ghost" size="lg" asChild className="hover:bg-white hover:text-black transition-colors duration-300">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/Saf265" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <GithubIcon className="h-6 w-6 mr-2" />
               GitHub
             </a>
           </Button>
           <Button variant="ghost" size="lg" asChild className="hover:bg-white hover:text-black transition-colors duration-300">
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <a href="https://x.com/Safwan1978774" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <Twitter className="h-6 w-6 mr-2" />
               Twitter
             </a>

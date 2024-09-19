@@ -72,7 +72,7 @@ export default function SkillsSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: index * 0.1 }}
             >
-              <Card className="bg-gray-800 border-gray-700 hover:bg-gray-700 transition-colors duration-300">
+              <Card className="bg-gray-800 border-gray-700 hover:bg-gray-700 transition-colors duration-300 rounded-lg">
                 <CardContent className="flex flex-col items-center justify-center p-6">
                   <Image className="text-4xl mb-4 h-24" src={skill.icon} width={70} height={70} alt="icon" />
                   <h3 className="text-xl font-semibold text-white">{skill.name}</h3>
